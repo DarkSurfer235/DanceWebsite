@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Rubik+Iso&family=Rubik+Marker+Hatch&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* font-family: 'DynaPuff', cursive;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Rubik Marker Hatch', cursive; */
+
+.container h1{
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    margin: 13px 0;
+    font-weight: bolder;
+}
+
+/* with flex box */
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    text-align: center;
+    width: 60%;
+    margin: 13px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 21px;
+    outline: none;
+    font-family: 'DynaPuff', cursive;
+    font-weight: bold;
+}
+
+.btn{
+    width: 30%;
+    padding: 9px 12px;
+    border: 2px solid black;
+    border-radius: 21px;
+    margin-top: 27px;
+    cursor: pointer;
+    font-size: 21px;
+    font-family: 'DynaPuff', cursive;
+    font-weight:bolder;
+    outline: none;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+/* without flex box */
+
+/* .myInput{
+    display: block;
+    text-align: center;
+    margin: 21px auto;
+    padding: 10px 111px;
+} */

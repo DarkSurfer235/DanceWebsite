@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css 
+
+block content
+    section#introSection 
+     div.large Welcome to Break a Leg Dance Academy 
+     div.small Live to Dance
+      
+    section#missionSection 
+        h1 Our Mission 
+        div.card 
+          h2 Perfect Choreoghraphy
+          div.card-box
+            div.card-img
+              img(src="/static/img/pic4.png",)
+            div.card-content
+              p Best Choreographers from Worldwide
+        div.card 
+          h2 To Have Fun While Dancing
+          div.card-box
+            div.card-img
+              img(src="/static/img/pic5.png",)
+            div.card-content
+              p Teach kids how fun dancing is
+        div.card 
+          h2 Freestyling
+          div.card-box
+            div.card-img
+              img(src="/static/img/pic3.png",)
+            div.card-content
+              p Dance and create your own style
+
+    section#sponsorSection 
+        h1 Our Sponsors
+        div#sponsors 
+          img(src='/static/img/microsoft.png', alt='Sponsor Image', class='spImage')
+          img(src='/static/img/skype.png', alt='Sponsor Image', class='spImage')
